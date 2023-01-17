@@ -9,65 +9,45 @@ terragrunt,Adopt,Tools,FALSE,
 Prefect,Adopt,Tools,FALSE,
 Jest,Adopt,Tools,FALSE,"Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly. Jest is well-documented, requires little configuration and can be extended to match your requirements.</br>
 <a href=""https://jestjs.io/"">Website</a></br>"
-Vue Testing Library,Adopt,Tools,FALSE,"The @testing-library family of packages helps you test UI components in a user-centric way. Their philosophy is ´The more your tests resemble the way your software is used, the more confidence they can give you.´</br>
+Testing Library,Adopt,Tools,FALSE,"The @testing-library family of packages helps you test UI components in a user-centric way. Their philosophy is ´The more your tests resemble the way your software is used, the more confidence they can give you.´</br>
 <a href=""https://testing-library.com/docs/vue-testing-library/intro/"">Website</a></br>"
 PostCSS,Adopt,Tools,FALSE,"PostCSS is a software development tool that uses JavaScript-based plugins to automate routine CSS operations. </br>
 <a href=""https://postcss.org/"">Website</a></br>"
-Figma,Adopt,Tools,FALSE,"Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration,[1] utilising a variety of vector graphics editor and prototyping tools.</br>
-<a href="""">Website</a></br>"
-msw,Adopt,Tools,FALSE,"Mock Service Worker (MSW) is a seamless REST/GraphQL API mocking library for browser and Node.js.</br>
-<a href=""https://mswjs.io/"">Website</a></br>"
-Lighthouse,Trial,Tools,FALSE,"Google Lighthouse is an open-source, automated tool for measuring the quality of web pages. It can be run against any web page, public or requiring authentication. Google Lighthouse audits performance, accessibility and search engine optimization of web pages. It also includes the ability to test progressive web applications for compliance with standards and best practices.</br>
-<a href=""https://developer.chrome.com/docs/lighthouse/overview/"">Website</a></br>"
-Vite,Trial,Tools,FALSE,"is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:</br>
-- A dev server that provides rich feature enhancements over native ES modules, for example extremely fast Hot Module Replacement (HMR).</br>
-- A build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.</br>
-Vite is opinionated and comes with sensible defaults out of the box, but is also highly extensible via its Plugin API and JavaScript API with full typing support.</br>
-<a href=""https://vitejs.dev/"">Website</a></br>"
-Dependabot,Assess,Tools,FALSE,"Dependabot alerts tell you that your code depends on a package that is insecure.</br>
+Playwright,Adopt,Tools,FALSE,
+Dependabot,Adopt,Tools,FALSE,"Dependabot alerts tell you that your code depends on a package that is insecure.</br>
 If your code depends on a package with a security vulnerability, this can cause a range of problems for your project or the people who use it. You should upgrade to a secure version of the package as soon as possible. If your code uses malware, you need to replace the package with a secure alternative.</br>
 <a href=""https://github.com/dependabot"">Website</a></br>"
-axe-core,Assess,Tools,FALSE,"Axe is an accessibility testing engine for websites and other HTML-based user interfaces. It's fast, secure, lightweight, and was built to seamlessly integrate with any existing test environment so you can automate accessibility testing alongside your regular functional testing.</br>
-<a href=""https://github.com/dequelabs/axe-core"">Website</a></br>"
-io-ts,Assess,Tools,FALSE,"Runtime type system for IO decoding/encoding</br>
-<a href=""https://github.com/gcanti/io-ts"">Website</a></br>"
 Terraform,Hold,Tools,FALSE,"Apache Airflow is an open-source workflow management platform for data engineering pipelines.. Airflow uses directed acyclic graphs (DAGs) to manage workflow orchestration. Tasks and dependencies are defined in Python and then Airflow manages the scheduling and execution. DAGs can be run either on a defined schedule (e.g. hourly or daily) or based on external event triggers</br>
 <a href=""https://airflow.apache.org/"">Website</a></br>"
 Airflow,Hold,Tools,FALSE,"Terraform is an open-source, infrastructure as code, software tool created by HashiCorp. Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON.</br>
 <a href=""https://www.terraform.io/"">Website</a></br>"
 Cypress,Hold,Tools,FALSE,"Cypress.io is a user-friendly test automation tool for end-to-end testing, UI testing, regression suites, integration, and unit testing. It is simple to install and does not require any changes to your code. Cypress.io prides itself on writing tests quickly and in real-time as you build your web application.</br>
 <a href=""https://www.cypress.io/"">Website</a></br>"
-Playwright,Hold,Tools,FALSE,
 Jenkins,Hold,Tools,FALSE,"Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat. It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, ClearCase and RTC, and can execute Apache Ant, Apache Maven and sbt based projects as well as arbitrary shell scripts and Windows batch commands.</br>
 <a href=""https://www.jenkins.io/"">Website</a></br>"
-Husky,Hold,Tools,FALSE,"Modern native Git hooks made easy</br>
-<a href=""https://github.com/typicode/husky"">Website</a></br>"
 Rollbar,Hold,Tools,FALSE,"Rollbar is a cloud-based bug tracking and monitoring solution that caters to organizations of all sizes. Rollbar supports multiple programming languages and frameworks like JavaScript, Python, . NET, Drupal, Wordpress and Pyramid.</br>
 <a href=""https://rollbar.com/"">Website</a></br>"
-Tailwind,Hold,Tools,FALSE,"Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. Instead, it creates a list of ""utility"" CSS classes that can be used to style each element by mixing and matching.</br>
-<a href=""https://tailwindcss.com/"">Website</a></br>"
-vuelidate,Hold,Tools,FALSE,"Vuelidate 2 is a simple, but powerful, lightweight model-based validation for Vue.js 3 and 2.</br>
-Vuelidate is considered model-based because the validation rules are defined next to your data, and the validation tree structure matches the data model structure.</br>
-<a href=""https://vuelidate-next.netlify.app/"">Website</a></br>"
 Typescript,Adopt,languages-and-frameworks,FALSE,"TypeScript is a free and open source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.</br>
 TypeScript may be used to develop JavaScript applications for both client-side and server-side execution (as with Node.js or Deno). Multiple options are available for transpilation. The default TypeScript Compiler can be used, or the Babel compiler can be invoked to convert TypeScript to JavaScript.</br>
 <a href=""https://www.typescriptlang.org/"">Website</a></br>"
-Java,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
-<a href=""https://www.oracle.com/java/"">Website</a></br>"
-PHP,Hold,languages-and-frameworks,FALSE,"PHP is a general-purpose scripting language geared toward web development.</br>
-<a href=""https://www.php.net/"">Website</a></br>"
 Python,Adopt,languages-and-frameworks,FALSE,"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</br>
 Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a ""batteries included"" language due to its comprehensive standard library.</br>
 <a href=""https://www.python.org/"">Website</a></br>"
 Vue.js,Adopt,languages-and-frameworks,FALSE,"Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.</br>
 Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. The core library is focused on the view layer only. Advanced features required for complex applications such as routing, state management and build tooling are offered via officially maintained supporting libraries and packages.</br>
 <a href=""https://vuejs.org/"">Website</a></br>"
+fastfy,Adopt,languages-and-frameworks,FALSE,
+Nest,trial,languages-and-frameworks,FALSE,
+Java,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
+<a href=""https://www.oracle.com/java/"">Website</a></br>"
+Kotlin,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
+<a href=""https://www.oracle.com/java/"">Website</a></br>"
+PHP,Hold,languages-and-frameworks,FALSE,"PHP is a general-purpose scripting language geared toward web development.</br>
+<a href=""https://www.php.net/"">Website</a></br>"
 symfony,Hold,languages-and-frameworks,FALSE,"Symfony is a free and open-source PHP web application framework and a set of reusable PHP component libraries. </br>
 Symfony aims to speed up the creation and maintenance of web applications and to replace repetitive coding tasks. It's also aimed at building robust applications in an enterprise context, and aims to give developers full control over the configuration: from the directory structure to the foreign libraries, almost everything can be customized. To match enterprise development guidelines, Symfony is bundled with additional tools to help developers test, debug and document projects.</br>
 <a href=""https://symfony.com/"">Website</a></br>"
-NuxtJs 3,Assess,languages-and-frameworks,FALSE,"Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.</br>
-The framework is advertised as a ""Meta-framework for universal applications"". The term universal is used here with the meaning that the goal of the framework is to enable users to create web views in JavaScript utilizing the Vue.js single file component system and that can function both as in-browser single page application (SPA) views as well as server-rendered web views which are then (after server rendering) ""rehydrated"" to full SPA functionality. Additionally, the framework enables users to have the content, or parts of it, fully pre-rendered on the server and served in the manner of static site generators.</br>
-<a href=""https://nuxtjs.org/"">Website</a></br>"
+springboot,Hold,languages-and-frameworks,FALSE,
 SCSS,Hold,languages-and-frameworks,FALSE,"Syntactically Awesome Style Sheet is the superset of CSS. SCSS is the more advanced version of CSS. SCSS was designed by Hampton Catlin and was developed by Chris Eppstein and Natalie Weizenbaum. Due to its advanced features it is often termed as Sassy CSS. SCSS have file extension of .scss.</br>
 <a href=""https://sass-lang.com/"">Website</a></br>"
 CI/CD,Adopt,Techniques,FALSE,"CI/CD bridges the gaps between development and operation activities and teams by enforcing automation in building, testing and deployment of applications. CI/CD services compile the incremental code changes made by developers, then link and package them into software deliverables. Automated tests verify the software functionality, and automated deployment services deliver them to end users. The aim is to increase early defect discovery, increase productivity, and provide faster release cycles. The process contrasts with traditional methods where a collection of software updates were integrated into one large batch before deploying the newer version. Modern-day DevOps practices involve:
@@ -76,6 +56,8 @@ CI/CD,Adopt,Techniques,FALSE,"CI/CD bridges the gaps between development and ope
 - Continuous deployment: When new software functionality is rolled out completely automatically</br>
 of software applications throughout its development life cycle. The CI/CD practice, or CI/CD pipeline, forms the backbone of modern day DevOps operations.</br>
 <a href=""https://en.wikipedia.org/wiki/CI/CD"">Website</a></br>"
+Trunk based development,Adopt,Techniques,FALSE,
+Pair programming,Adopt,Techniques,FALSE,
 You build it you run it,Adopt,Techniques,FALSE,"You Build It You Run It is an Operating model in which product teams build, deploy, operate, and support their own digital services. It is also sometimes referred to as Full Cycle Development[1], Operate What You Build[1] or On Call Developers[2]. It is foundational to DevOps or Agile software development. </br>
 <a href=""https://handwiki.org/wiki/Software:You_Build_It_You_Run_It"">Website</a></br>
 <a href=""https://www.notion.so/holaluz/Tecnolog-as-Estandarizadas-5f96ec59ba81428a84cbfeb306a2e7f4¨"">Contacts</a>"
@@ -85,8 +67,6 @@ Everything as Code,Adopt,Techniques,FALSE,"Treating all components of a system a
 In addition, the configuration can be stored from top to bottom (communication switches, bare-metal servers, operating system, build configurations, app properties, deployment configurations as codes) so that they can all be tracked and easily recreated.</br>
 Everything as Code (EaC) also includes system design which is stored as code. Infrastructure was essential in the old IT world. It required special skills, physical hardware, and cables to be properly installed. The systems were either very valuable or not updated as often as they were created by the people responsible.</br>
 <a href=""https://geekflare.com/everything-as-code/"">Website</a></br>"
-Services Template,Adopt,Techniques,FALSE,"ource code template that a developer can copy in order to quickly start developing a new service. A template is a simple runnable service that implements the required build logic and cross cutting concerns along with sample application logic.</br>
-<a href=""https://microservices.io/patterns/service-template.html"">Website</a></br>"
 Async Comunication by Default,Adopt,Techniques,FALSE,"Asynchronous messaging and event-driven communication are critical when propagating changes across multiple microservices and their related domain models. As mentioned earlier in the discussion microservices and Bounded Contexts (BCs), models (User, Customer, Product, Account, etc.) can mean different things to different microservices or BCs. That means that when changes occur, you need some way to reconcile changes across the different models. A solution is eventual consistency and event-driven communication based on asynchronous messaging.</br>
 When using messaging, processes communicate by exchanging messages asynchronously. A client makes a command or a request to a service by sending it a message. If the service needs to reply, it sends a different message back to the client. Since it's a message-based communication, the client assumes that the reply won't be received immediately, and that there might be no response at all.</br>
 <a href=""https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication"">Website</a></br>"
@@ -98,17 +78,15 @@ Design Systems,Adopt,Techniques,FALSE,"A design system is a library of reusable 
 <a href=""https://www.interaction-design.org/literature/topics/design-systems"">Website</a></br>"
 Generic auth/accounts for services,Adopt,Techniques,FALSE,"TBD</br>
 <a href="""">Website</a></br>"
-Semantic Release,Adopt,Techniques,FALSE,"semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes, and publishing the package.</br>
+Semantic Release,Hold,Techniques,FALSE,"semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes, and publishing the package.</br>
 This removes the immediate connection between human emotions and version numbers, strictly following the Semantic Versioning specification and communicating the impact of changes to consumers.</br>
 <a href=""https://semantic-release.gitbook.io/semantic-release/"">Website</a></br>"
-Deploy previews,Adopt,Techniques,FALSE,"Deploy Previews work by deploying pull/merge requests to a unique URL different from the one your production site uses. This URL has the prefix deploy-preview followed by the identifier number of the pull request or merge request. </br>
+Deploy previews,Hold,Techniques,FALSE,"Deploy Previews work by deploying pull/merge requests to a unique URL different from the one your production site uses. This URL has the prefix deploy-preview followed by the identifier number of the pull request or merge request. </br>
 <a href=""https://significa.co/blog/deploy-previews-aws"">Website</a></br>"
 DevOps,Adopt,Techniques,FALSE,"DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.</br>
 <a href=""https://en.wikipedia.org/wiki/DevOps"">Website</a></br>"
-Microforntends,Assess,Techniques,FALSE,"An architectural style where independently deliverable frontend applications are composed into a greater whole</br>
+Microforntends,Trial,Techniques,FALSE,"An architectural style where independently deliverable frontend applications are composed into a greater whole</br>
 <a href=""https://micro-frontends.org/"">Website</a></br>"
-State Machines,Assess,Techniques,FALSE,"A state machine is a behavior model. It consists of a finite number of states and is therefore also called finite-state machine (FSM). Based on the current state and a given input the machine performs state transitions and produces outputs. There are basic types like Mealy and Moore machines and more complex types like Harel and UML statecharts.</br>
-<a href=""https://learn.microsoft.com/en-us/dotnet/framework/windows-workflow-foundation/state-machine-workflows"">Website</a></br>"
 Contract Testing,Hold,Techniques,FALSE,"Contract testing is a methodology for ensuring that two separate systems (such as two microservices) are compatible and are able to communicate with one other. It captures the interactions that are exchanged between each service, storing them in a contract, which can then be used to verify that both parties adhere to it.</br>
 <a href=""https://pactflow.io/blog/what-is-contract-testing/"">Website</a></br>"
 Long lived git branches,Hold,Techniques,FALSE,"long-lived branches are the opposite of continuously integrating all changes to the source code, and in our experience continuous integration is the better approach for most kinds of software development.</br>
@@ -128,3 +106,4 @@ JVM,Hold,Platforms,FALSE,"A Java virtual machine (JVM) is a virtual machine that
 <a href=""https://docs.oracle.com/en/database/oracle/oracle-database/19/jjdev/Oracle-JVM-overview.html"">Website</a></br>"
 Netlify,Hold,Platforms,FALSE,"Netlify is a remote-first cloud computing company that offers a development platform that includes build, deploy, and serverless backend services for web applications and dynamic websites. The platform is built on open web standards, making it possible to integrate build tools, web frameworks, APIs, and various web technologies into a unified developer workflow.</br>
 <a href=""https://www.netlify.com/"">Website</a></br>"
+Kafka,Adopt,Platforms,FALSE,
