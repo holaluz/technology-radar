@@ -1,4 +1,27 @@
 name,ring,quadrant,isNew,description
+Typescript,Adopt,languages-and-frameworks,FALSE,"TypeScript is a free and open source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.</br>
+TypeScript may be used to develop JavaScript applications for both client-side and server-side execution (as with Node.js or Deno). Multiple options are available for transpilation. The default TypeScript Compiler can be used, or the Babel compiler can be invoked to convert TypeScript to JavaScript.</br>
+<a href=""https://www.typescriptlang.org/"">Website</a></br>"
+Python,Adopt,languages-and-frameworks,FALSE,"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</br>
+Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a ""batteries included"" language due to its comprehensive standard library.</br>
+<a href=""https://www.python.org/"">Website</a></br>"
+Vue.js,Adopt,languages-and-frameworks,FALSE,"Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.</br>
+Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. The core library is focused on the view layer only. Advanced features required for complex applications such as routing, state management and build tooling are offered via officially maintained supporting libraries and packages.</br>
+<a href=""https://vuejs.org/"">Website</a></br>"
+fastfy,Adopt,languages-and-frameworks,FALSE,
+Nest,trial,languages-and-frameworks,FALSE,
+Java,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
+<a href=""https://www.oracle.com/java/"">Website</a></br>"
+Kotlin,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
+<a href=""https://www.oracle.com/java/"">Website</a></br>"
+PHP,Hold,languages-and-frameworks,FALSE,"PHP is a general-purpose scripting language geared toward web development.</br>
+<a href=""https://www.php.net/"">Website</a></br>"
+symfony,Hold,languages-and-frameworks,FALSE,"Symfony is a free and open-source PHP web application framework and a set of reusable PHP component libraries. </br>
+Symfony aims to speed up the creation and maintenance of web applications and to replace repetitive coding tasks. It's also aimed at building robust applications in an enterprise context, and aims to give developers full control over the configuration: from the directory structure to the foreign libraries, almost everything can be customized. To match enterprise development guidelines, Symfony is bundled with additional tools to help developers test, debug and document projects.</br>
+<a href=""https://symfony.com/"">Website</a></br>"
+springboot,Hold,languages-and-frameworks,FALSE,
+SCSS,Hold,languages-and-frameworks,FALSE,"Syntactically Awesome Style Sheet is the superset of CSS. SCSS is the more advanced version of CSS. SCSS was designed by Hampton Catlin and was developed by Chris Eppstein and Natalie Weizenbaum. Due to its advanced features it is often termed as Sassy CSS. SCSS have file extension of .scss.</br>
+<a href=""https://sass-lang.com/"">Website</a></br>"
 Datadog,Adopt,Tools,FALSE,"Datadog is an observability service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through a SaaS-based data analytics platform.</br>
 <a href=""https://www.datadoghq.com/"">Website</a></br>"
 Github Actions,Adopt,Tools,FALSE,"GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.</br>
@@ -27,29 +50,6 @@ Jenkins,Hold,Tools,FALSE,"Jenkins is an open source automation server. It helps 
 <a href=""https://www.jenkins.io/"">Website</a></br>"
 Rollbar,Hold,Tools,FALSE,"Rollbar is a cloud-based bug tracking and monitoring solution that caters to organizations of all sizes. Rollbar supports multiple programming languages and frameworks like JavaScript, Python, . NET, Drupal, Wordpress and Pyramid.</br>
 <a href=""https://rollbar.com/"">Website</a></br>"
-Typescript,Adopt,languages-and-frameworks,FALSE,"TypeScript is a free and open source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.</br>
-TypeScript may be used to develop JavaScript applications for both client-side and server-side execution (as with Node.js or Deno). Multiple options are available for transpilation. The default TypeScript Compiler can be used, or the Babel compiler can be invoked to convert TypeScript to JavaScript.</br>
-<a href=""https://www.typescriptlang.org/"">Website</a></br>"
-Python,Adopt,languages-and-frameworks,FALSE,"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</br>
-Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a ""batteries included"" language due to its comprehensive standard library.</br>
-<a href=""https://www.python.org/"">Website</a></br>"
-Vue.js,Adopt,languages-and-frameworks,FALSE,"Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.</br>
-Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. The core library is focused on the view layer only. Advanced features required for complex applications such as routing, state management and build tooling are offered via officially maintained supporting libraries and packages.</br>
-<a href=""https://vuejs.org/"">Website</a></br>"
-fastfy,Adopt,languages-and-frameworks,FALSE,
-Nest,trial,languages-and-frameworks,FALSE,
-Java,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
-<a href=""https://www.oracle.com/java/"">Website</a></br>"
-Kotlin,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
-<a href=""https://www.oracle.com/java/"">Website</a></br>"
-PHP,Hold,languages-and-frameworks,FALSE,"PHP is a general-purpose scripting language geared toward web development.</br>
-<a href=""https://www.php.net/"">Website</a></br>"
-symfony,Hold,languages-and-frameworks,FALSE,"Symfony is a free and open-source PHP web application framework and a set of reusable PHP component libraries. </br>
-Symfony aims to speed up the creation and maintenance of web applications and to replace repetitive coding tasks. It's also aimed at building robust applications in an enterprise context, and aims to give developers full control over the configuration: from the directory structure to the foreign libraries, almost everything can be customized. To match enterprise development guidelines, Symfony is bundled with additional tools to help developers test, debug and document projects.</br>
-<a href=""https://symfony.com/"">Website</a></br>"
-springboot,Hold,languages-and-frameworks,FALSE,
-SCSS,Hold,languages-and-frameworks,FALSE,"Syntactically Awesome Style Sheet is the superset of CSS. SCSS is the more advanced version of CSS. SCSS was designed by Hampton Catlin and was developed by Chris Eppstein and Natalie Weizenbaum. Due to its advanced features it is often termed as Sassy CSS. SCSS have file extension of .scss.</br>
-<a href=""https://sass-lang.com/"">Website</a></br>"
 CI/CD,Adopt,Techniques,FALSE,"CI/CD bridges the gaps between development and operation activities and teams by enforcing automation in building, testing and deployment of applications. CI/CD services compile the incremental code changes made by developers, then link and package them into software deliverables. Automated tests verify the software functionality, and automated deployment services deliver them to end users. The aim is to increase early defect discovery, increase productivity, and provide faster release cycles. The process contrasts with traditional methods where a collection of software updates were integrated into one large batch before deploying the newer version. Modern-day DevOps practices involve:
 - Continuous integration: Frequent merging of several small changes into a main branch</br>
 - Continuous delivery: When teams produce software in short cycles with high speed and frequency so that reliable software can be released at any time, and with a simple and repeatable deployment process when deciding to deploy</br>
