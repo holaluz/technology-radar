@@ -8,8 +8,10 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
 Vue.js,Adopt,languages-and-frameworks,FALSE,"Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.</br>
 Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. The core library is focused on the view layer only. Advanced features required for complex applications such as routing, state management and build tooling are offered via officially maintained supporting libraries and packages.</br>
 <a href=""https://vuejs.org/"">Website</a></br>"
-fastfy,Adopt,languages-and-frameworks,FALSE,
+Fastfy,Adopt,languages-and-frameworks,FALSE,
 Nest,trial,languages-and-frameworks,FALSE,
+PostCSS,Adopt,languages-and-frameworks,FALSE,"PostCSS is a software development tool that uses JavaScript-based plugins to automate routine CSS operations. </br>
+<a href=""https://postcss.org/"">Website</a></br>"
 Java,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
 <a href=""https://www.oracle.com/java/"">Website</a></br>"
 Kotlin,Hold,languages-and-frameworks,FALSE,"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.</br>
@@ -34,8 +36,6 @@ Jest,Adopt,Tools,FALSE,"Jest is a JavaScript testing framework designed to ensur
 <a href=""https://jestjs.io/"">Website</a></br>"
 Testing Library,Adopt,Tools,FALSE,"The @testing-library family of packages helps you test UI components in a user-centric way. Their philosophy is ´The more your tests resemble the way your software is used, the more confidence they can give you.´</br>
 <a href=""https://testing-library.com/docs/vue-testing-library/intro/"">Website</a></br>"
-PostCSS,Adopt,Tools,FALSE,"PostCSS is a software development tool that uses JavaScript-based plugins to automate routine CSS operations. </br>
-<a href=""https://postcss.org/"">Website</a></br>"
 Playwright,Adopt,Tools,FALSE,
 Dependabot,Adopt,Tools,FALSE,"Dependabot alerts tell you that your code depends on a package that is insecure.</br>
 If your code depends on a package with a security vulnerability, this can cause a range of problems for your project or the people who use it. You should upgrade to a secure version of the package as soon as possible. If your code uses malware, you need to replace the package with a secure alternative.</br>
