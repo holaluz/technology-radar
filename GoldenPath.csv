@@ -5,19 +5,12 @@ Github Actions,Adopt,Tools,FALSE,"GitHub Actions is a continuous integration and
 GitHub Actions goes beyond just DevOps and lets you run workflows when other events happen in your repository. For example, you can run a workflow to automatically add the appropriate labels whenever someone creates a new issue in your repository.</br>
 GitHub provides Linux, Windows, and macOS virtual machines to run your workflows, or you can host your own self-hosted runners in your own data center or cloud infrastructure.</br>
 <a href=""https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions"">Website</a></br>"
-Terraform,Hold,Tools,FALSE,"Apache Airflow is an open-source workflow management platform for data engineering pipelines.. Airflow uses directed acyclic graphs (DAGs) to manage workflow orchestration. Tasks and dependencies are defined in Python and then Airflow manages the scheduling and execution. DAGs can be run either on a defined schedule (e.g. hourly or daily) or based on external event triggers</br>
-<a href=""https://airflow.apache.org/"">Website</a></br>"
 terragrunt,Adopt,Tools,FALSE,
-Airflow,Hold,Tools,FALSE,"Terraform is an open-source, infrastructure as code, software tool created by HashiCorp. Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON.</br>
-<a href=""https://www.terraform.io/"">Website</a></br>"
 Prefect,Adopt,Tools,FALSE,
 Jest,Adopt,Tools,FALSE,"Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly. Jest is well-documented, requires little configuration and can be extended to match your requirements.</br>
 <a href=""https://jestjs.io/"">Website</a></br>"
 Vue Testing Library,Adopt,Tools,FALSE,"The @testing-library family of packages helps you test UI components in a user-centric way. Their philosophy is ´The more your tests resemble the way your software is used, the more confidence they can give you.´</br>
 <a href=""https://testing-library.com/docs/vue-testing-library/intro/"">Website</a></br>"
-Cypress,Hold,Tools,FALSE,"Cypress.io is a user-friendly test automation tool for end-to-end testing, UI testing, regression suites, integration, and unit testing. It is simple to install and does not require any changes to your code. Cypress.io prides itself on writing tests quickly and in real-time as you build your web application.</br>
-<a href=""https://www.cypress.io/"">Website</a></br>"
-Playwright,Hold,Tools,FALSE,
 PostCSS,Adopt,Tools,FALSE,"PostCSS is a software development tool that uses JavaScript-based plugins to automate routine CSS operations. </br>
 <a href=""https://postcss.org/"">Website</a></br>"
 Figma,Adopt,Tools,FALSE,"Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration,[1] utilising a variety of vector graphics editor and prototyping tools.</br>
@@ -38,6 +31,13 @@ axe-core,Assess,Tools,FALSE,"Axe is an accessibility testing engine for websites
 <a href=""https://github.com/dequelabs/axe-core"">Website</a></br>"
 io-ts,Assess,Tools,FALSE,"Runtime type system for IO decoding/encoding</br>
 <a href=""https://github.com/gcanti/io-ts"">Website</a></br>"
+Terraform,Hold,Tools,FALSE,"Apache Airflow is an open-source workflow management platform for data engineering pipelines.. Airflow uses directed acyclic graphs (DAGs) to manage workflow orchestration. Tasks and dependencies are defined in Python and then Airflow manages the scheduling and execution. DAGs can be run either on a defined schedule (e.g. hourly or daily) or based on external event triggers</br>
+<a href=""https://airflow.apache.org/"">Website</a></br>"
+Airflow,Hold,Tools,FALSE,"Terraform is an open-source, infrastructure as code, software tool created by HashiCorp. Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON.</br>
+<a href=""https://www.terraform.io/"">Website</a></br>"
+Cypress,Hold,Tools,FALSE,"Cypress.io is a user-friendly test automation tool for end-to-end testing, UI testing, regression suites, integration, and unit testing. It is simple to install and does not require any changes to your code. Cypress.io prides itself on writing tests quickly and in real-time as you build your web application.</br>
+<a href=""https://www.cypress.io/"">Website</a></br>"
+Playwright,Hold,Tools,FALSE,
 Jenkins,Hold,Tools,FALSE,"Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat. It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, ClearCase and RTC, and can execute Apache Ant, Apache Maven and sbt based projects as well as arbitrary shell scripts and Windows batch commands.</br>
 <a href=""https://www.jenkins.io/"">Website</a></br>"
 Husky,Hold,Tools,FALSE,"Modern native Git hooks made easy</br>
