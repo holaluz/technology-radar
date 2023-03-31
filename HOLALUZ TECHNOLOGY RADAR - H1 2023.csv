@@ -2,6 +2,7 @@ name,ring,quadrant,description,isNew
 Typescript,Adopt,Languages & Frameworks,,FALSE
 Kotlin,Adopt,Languages & Frameworks,,FALSE
 Python,Adopt,Languages & Frameworks,,FALSE
+SpringBoot,Adopt,Languages & Frameworks,,FALSE
 Nuxt,Adopt,Languages & Frameworks,,FALSE
 Vue,Adopt,Languages & Frameworks,,FALSE
 PostCSS,Adopt,Languages & Frameworks,,FALSE
