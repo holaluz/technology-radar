@@ -1,104 +1,209 @@
 name,ring,quadrant,description,isNew	
-Typescript,Adopt,Languages & Frameworks,TypeScript is a typed superset of JavaScript that compiles to clean JavaScript code. It is a popular choice for large-scale applications that require strong typing.,FALSE
-Kotlin,Adopt,Languages & Frameworks,"Kotlin is a modern statically typed programming language that runs on the JVM, Android, JavaScript, and Native. It is a popular choice for Android development.",FALSE
-Python,Adopt,Languages & Frameworks,"Python is a general-purpose, high-level programming language. It is a popular choice for data science and machine learning.",FALSE
-SpringBoot,Adopt,Languages & Frameworks,SpringBoot is a Java-based open source framework used to create Spring-based applications. It is a popular choice for building microservices.,FALSE
-Nuxt,Adopt,Languages & Frameworks,Nuxt is a Vue.js framework for server-side rendering. It is a popular choice for building static websites.,FALSE
-Vue,Adopt,Languages & Frameworks,Vue is a JavaScript front-end framework. It is a popular choice for building user interfaces.,FALSE
-PostCSS,Adopt,Languages & Frameworks,"PostCSS is a preprocessor tool for CSS that can be used to add features like variables, mixins, and nesting. It is a popular choice for building complex CSS.",FALSE
-Apache Avro,Trial,Languages & Frameworks,"Apache Avro is a language-neutral, platform-neutral extensible mechanism for serializing data. It is a popular choice for storing and transmitting data.",TRUE
-GraphQL,Assess,Languages & Frameworks,GraphQL is a query language for APIs that allows you to get the exact data you need from a server. It is a popular choice for building APIs.,TRUE
-Ktor,Assess,Languages & Frameworks,Ktor is a framework for building reactive applications in Kotlin. It is a popular choice for building web applications.,TRUE
-Micronauts,Assess,Languages & Frameworks,Micronauts is a framework for building microservices in Kotlin. It is a popular choice for building microservices.,TRUE
-NestJs,Assess,Languages & Frameworks,"NestJs is an open-source framework for building serverless, reactive APIs with Node.js. It is a popular choice for building serverless APIs.",TRUE
-Java,Hold,Languages & Frameworks,"Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a popular choice for building large-scale applications.",TRUE
-PHP,Hold,Languages & Frameworks,PHP is a general-purpose scripting language especially suited for web development. It is a popular choice for building websites.,TRUE
-Confluent Apache Kafka,Adopt,Platforms,Confluent Apache Kafka is an open-source distributed streaming platform. It is a popular choice for building real-time applications.,TRUE
-AWS,Adopt,Platforms,"AWS is Amazon Web Services, a cloud computing platform that provides infrastructure and services to businesses of all sizes. It is a popular choice for building and running applications.",FALSE
-JVM,Adopt,Platforms,"JVM Java Virtual Machine, an abstract machine that enables Java programs to run on any platform that has a Java Virtual Machine implementation. It is a popular choice for running Java applications.",FALSE
-NodeJS,Adopt,Platforms,"NodeJS an open-source, cross-platform runtime environment for JavaScript that executes code outside of a web browser. It is a popular choice for building serverless applications.",FALSE
-GitHub,Adopt,Platforms,GitHub is a web-based hosting service for version control using Git. It is a popular choice for managing source code.,FALSE
-Docker,Adopt,Platforms,"Docker is a platform for building, shipping, and running applications. It is a popular choice for building and running containers.",FALSE
-ConfigCat,Adopt,Platforms,ConfigCat a configuration management tool that allows you to manage configurations for your applications. It is a popular choice for managing configurations.,TRUE
-Figma,Adopt,Platforms,Figma a collaborative interface design tool. It is a popular choice for designing user interfaces.,FALSE
-Datadog,Adopt,Platforms,Datadog a cloud-based monitoring and analytics platform for applications and infrastructure. It is a popular choice for monitoring and analyzing applications and infrastructure.,FALSE
-AWS Lambda,Adopt,Platforms,AWS Lambda a serverless compute service that lets you run code without provisioning or managing servers. It is a popular choice for building serverless applications.,TRUE
-AWS ECS,Adopt,Platforms,"AWS ECS Elastic Container Service, a fully managed container orchestration service. It is a popular choice for managing containers.",FALSE
-AWS Amplify,Adopt,Platforms,"AWS Amplify a set of tools and services that helps you build, deploy, and scale web and mobile applications on AWS. It is a popular choice for building web and mobile applications.",TRUE
-didomi,Adopt,Platforms,"didomi a customer data platform that helps you collect, store, and manage customer data. It is a popular choice for collecting and managing customer data.",FALSE
-AWS Glue,Adopt,Platforms,"AWS Glue is a fully managed, serverless, extract, transform, and load (ETL) service that makes it easy to set up and manage data pipelines.",TRUE
-Step Functions,Adopt,Platforms,"Step Functions is a serverless, event-driven workflow service that helps you build and run workflows that coordinate multiple AWS services.",TRUE
-GraalVM,Assess,Platforms,"GraalVM is a high-performance, polyglot runtime for fast and easy development of cloud and desktop applications.",TRUE
-Rollbar,Hold,Platforms,Rollbar is a real-time error logging and monitoring service.,TRUE
-EC2,Hold,Platforms,"EC2 Elastic Compute Cloud, a web service that provides resizable compute capacity in the cloud.",TRUE
-Ekon,Hold,Platforms,Ekon a continuous integration and continuous delivery (CI/CD) platform.,FALSE
-Netlify,Hold,Platforms,"Netlify a web development platform that automates the build, deployment, and hosting of web sites and applications.",TRUE
-Airflow,Hold,Platforms,Airflow a workflow management system for large-scale distributed systems.,TRUE
-Continuous Deployment,Adopt,Techniques,Continuous Deployment a software engineering approach that automates the process of deploying software to production.,TRUE
-Pair/Mob programing,Adopt,Techniques,Pair/Mob programming a software development methodology where two or more developers work together to solve a problem.,FALSE
-Test Driven Development,Adopt,Techniques,Test Driven Development a software development methodology where developers write tests first and then write code to make the tests pass.,TRUE
-Feature flags,Adopt,Techniques,Feature flags a way to enable or disable features of an application at runtime.,TRUE
-Hexagonal Architecture,Adopt,Techniques,Hexagonal Architecture a software architecture pattern that divides an application into modules that communicate with each other through a central service.,FALSE
-DevOps,Adopt,Techniques,DevOps a software development methodology that combines software development (Dev) and IT operations (Ops).,FALSE
-You build it you run it,Adopt,Techniques,You build it you run it a DevOps principle that states that the developers who build an application should also be responsible for running it in production.,FALSE
-Everything as Code,Adopt,Techniques,Everything as Code a DevOps principle that states that all aspects of an application should be managed using code.,FALSE
-ADRs,Adopt,Techniques,"ADRs Architectural Decision Records, a document that describes the architectural decisions made for an application.",FALSE
-Async Comunication,Adopt,Techniques,Async Comunication a communication pattern where messages are sent and received asynchronously.,FALSE
-Platform as product,Adopt,Techniques,Platform as product a software development methodology where a platform is treated as a product that needs to be developed and maintained.,FALSE
-Services Template,Adopt,Techniques,Services Template a template for building services that are used in an application.,FALSE
-Blameless incident management,Adopt,Techniques,Blameless incident management a process for managing incidents that focuses on learning from mistakes and improving the system.,FALSE
-Semantic Release,Adopt,Techniques,Semantic Release is a software engineering technique for automating the release of software.,TRUE
-BFF pattern,Adopt,Techniques,BFF pattern is a software architecture pattern that defines a service that provides a unified interface to multiple backend services.,FALSE
-Design Systems,Adopt,Techniques,"Design Systems is a set of principles, processes, and tools for creating a unified user experience across a product or organization.",FALSE
-Domain Driven Design,Trial,Techniques,Domain Driven Design is a software design approach that focuses on modeling the domain of a problem in order to build software that is easy to understand and maintain.,TRUE
-Ubiquitous Language,Trial,Techniques,Ubiquitous Language is a shared vocabulary that is used by all members of a team to communicate about software development.,TRUE
-Trunk based development,Trial,Techniques,Trunk based development is a software development methodology that uses a single branch for development and production.,TRUE
-Single Environment,Trial,Techniques,Single Environment is a software development environment that is used for both development and production.,TRUE
-four key metrics,Trial,Techniques,"These metrics are important because they can help you track the effectiveness of your DevOps practices. If you are able to improve these metrics, you will be able to deploy changes more quickly, with fewer failures, and recover from failures more quickly.",TRUE
-Deploy previews,Trial,Techniques,Deploy previews is the process of deploying a change to a staging environment before deploying it to production.,TRUE
-Vertical slicing,Assess,Techniques,"Vertical slicing is a software development methodology that divides a feature into smaller, independent pieces.",TRUE
-DevSecOps,Assess,Techniques,"DevSecOps is a software development methodology that integrates security, development, and operations.",TRUE
-Microfrontends,Assess,Techniques,"Microfrontends is a software development methodology that divides a user interface into smaller, independent pieces.",TRUE
-Monorepos,Assess,Techniques,Monorepos is a software development methodology that uses a single repository for all of the code for a project.,TRUE
-Gitflow,Hold,Techniques,Gitflow is a software development workflow that uses a master branch for stable code and feature branches for development.,TRUE
-Pull Request,Hold,Techniques,Pull Request is a request to merge changes from one branch into another branch.,TRUE
-OpenAPI,Adopt,Tools,OpenAPI is a standard for defining RESTful APIs.,FALSE
-AWS Secret Manager,Adopt,Tools,AWS Secret Manager is a service that allows you to store and manage secrets securely.,TRUE
-GitHub Actions,Adopt,Tools,GitHub Actions is a service that allows you to automate workflows on GitHub.,TRUE
-Margarita,Adopt,Tools,Margarita is a tool that helps you automate the process of creating and managing release notes.,FALSE
-Elastic Cache,Adopt,Tools,Elastic Cache is a service that provides a distributed in-memory cache.,TRUE
-Vitest,Adopt,Tools,Vitest is a unit testing framework for JavaScript.,TRUE
-AWS RDS PostgreSQL,Adopt,Tools,RDS PostgreSQL is a managed database service that offers PostgreSQL as its database engine.,FALSE
-DynamoDB,Adopt,Tools,DynamoDB is a fully managed NoSQL database service.,TRUE
-Atlantis,Adopt,Tools,Atlantis is a tool that helps you automate the process of deploying and managing infrastructure on AWS.,TRUE
-Vite,Adopt,Tools,Vite is a build tool for JavaScript applications.,TRUE
-Terraform,Adopt,Tools,Terraform is a tool for managing infrastructure on AWS and other providers.,FALSE
-TestContainers,Adopt,Tools,TestContainers is a tool that allows you to run unit tests in containers.,TRUE
-cookiecutter,Adopt,Tools,cookiecutter is a tool that helps you create new projects from templates.,FALSE
-Testing Library,Adopt,Tools,Testing Library is a testing framework for JavaScript.,FALSE
-AWS S3,Adopt,Tools,AWS S3 is a web service that provides object storage.,FALSE
-Cypress,Adopt,Tools,Cypress is a tool that helps you test web applications.,FALSE
-VeeValidate,Adopt,Tools,VeeValidate is a tool that helps you validate data.,TRUE
-Mock Service Worker,Adopt,Tools,Mock Service Worker is a tool that allows you to mock out the Service Worker API.,TRUE
-Dependabot,Trial,Tools,Dependabot is a tool that helps you manage dependencies for your projects.,TRUE
-Mergstat,Trial,Tools,Mergstat is a tool that helps you merge changes to your code.,TRUE
-Open Policy Agent,Trial,Tools,Open Policy Agent is a tool that helps you enforce policies on your infrastructure.,TRUE
-Schema Registry,Trial,Tools,Schema Registry is a tool that helps you manage the schema for your data.,TRUE
-Snyk,Assess,Tools,Snyk is a tool that helps you find vulnerabilities in your code.,TRUE
-ChatGPT,Assess,Tools,ChatGPT is a tool that allows you to chat with a chatbot.,TRUE
-Husky,Assess,Tools,Husky is a tool that helps you automate tasks related to your code.,TRUE
-simple-git-hooks,Assess,Tools,simple-git-hooks is a tool that helps you automate tasks related to your Git repository.,TRUE
-OpenSearch,Assess,Tools,OpenSearch is a fully managed service that provides a search engine based on Elasticsearch.,TRUE
-AWS Cognito,Assess,Tools,AWS Cognito is a service that provides user authentication and authorization.,TRUE
-Lighthouse,Assess,Tools,"Lighthouse is an open-source tool that helps you audit your web pages for performance, accessibility, and SEO.",TRUE
-Terragrunt,Assess,Tools,Terragrunt is a tool that helps you manage Terraform configurations.,TRUE
-Playwright,Assess,Tools,Playwright is a tool that helps you automate the testing of web applications.,TRUE
-infracost,Assess,Tools,infracost is a tool that helps you estimate the cost of your infrastructure.,TRUE
-AsyncAPI,Assess,Tools,AsyncAPI is a standard for defining RESTful APIs asynchronously.,TRUE
-terratest,Assess,Tools,terratest is a tool that helps you test your Terraform configurations.,TRUE
-vuelidate,Hold,Tools,vuelidate is a tool that helps you validate data.,TRUE
-Jenkins,Hold,Tools,Jenkins is an open-source continuous integration and continuous delivery (CI/CD) server.,TRUE
-webpack,Hold,Tools,webpack is a tool that helps you bundle JavaScript files.,TRUE
-Jest,Hold,Tools,Jest is a tool that helps you write unit tests for JavaScript.,TRUE
-Contract Testing,Hold,Tools,Contract Testing is a type of testing that focuses on testing the contracts between components in a system.,TRUE
-Elastic Search,Hold,Tools,Elastic Search is an open-source distributed search and analytics engine.,TRUE
+Typescript,Adopt,Languages & Frameworks,"TypeScript is a typed superset of JavaScript that compiles to clean JavaScript code. It is a popular choice for large-scale applications that require strong typing.</br> 
+<a href=""https://www.typescriptlang.org/"">Website</a></br>",FALSE
+Kotlin,Adopt,Languages & Frameworks,"Kotlin is a modern statically typed programming language that runs on the JVM, Android, JavaScript, and Native. It is a popular choice for Android development.</br> 
+<a href=""https://kotlinlang.org/"">Website</a></br>",FALSE
+Python,Adopt,Languages & Frameworks,"Python is a general-purpose, high-level programming language. It is a popular choice for data science and machine learning.</br> 
+<a href=""https://www.python.org/"">Website</a></br>",FALSE
+VueJS,Adopt,Languages & Frameworks,"Vue is a JavaScript front-end framework. It is a popular choice for building user interfaces.</br> 
+<a href=""https://vuejs.org/"">Website</a></br>",FALSE
+Nuxt,Adopt,Languages & Frameworks,"Nuxt is a Vue.js framework for server-side rendering. It is a popular choice for building static websites.</br> 
+<a href=""https://nuxtjs.org/"">Website</a></br>",FALSE
+PostCSS,Adopt,Languages & Frameworks,"PostCSS is a preprocessor tool for CSS that can be used to add features like variables, mixins, and nesting. It is a popular choice for building complex CSS.</br> 
+<a href=""https://postcss.org/"">Website</a></br>",FALSE
+SpringBoot,Adopt,Languages & Frameworks,"SpringBoot is a Java-based open source framework used to create Spring-based applications. It is a popular choice for building microservices.</br> 
+<a href=""https://spring.io/projects/spring-boot"">Website</a></br>",FALSE
+Apache Avro,Trial,Languages & Frameworks,"Apache Avro is a language-neutral, platform-neutral extensible mechanism for serializing data. It is a popular choice for storing and transmitting data.</br> 
+<a href=""https://avro.apache.org/"">Website</a></br>",TRUE
+Ktor,Assess,Languages & Frameworks,"Ktor is a framework for building reactive applications in Kotlin that has native support for coroutines.</br> 
+<a href=""https://ktor.io/"">Website</a></br>",TRUE
+Micronauts,Assess,Languages & Frameworks,"A modern, jvm-based, full-stack framework for building modular, easily testable microservice and serverless applications.</br> 
+<a href=""https://micronaut.io/"">Website</a></br>",TRUE
+NestJs,Assess,Languages & Frameworks,"NestJS is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).</br> 
+<a href=""https://nestjs.com/"">Website</a></br>",TRUE
+GraphQL,Assess,Languages & Frameworks,"GraphQL is a query language for APIs that allows you to get the exact data you need from a server. It is a popular choice for building APIs.</br> 
+<a href=""https://graphql.org/"">Website</a></br>",TRUE
+PHP,Hold,Languages & Frameworks,"PHP is a general-purpose scripting language especially suited for web development. It is a popular choice for building websites.</br> 
+<a href=""https://www.php.net/"">Website</a></br>",TRUE
+Java,Hold,Languages & Frameworks,"Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a popular choice for building large-scale applications.</br> 
+<a href=""https://dev.java/"">Website</a></br>",TRUE
+AWS,Adopt,Platforms,"AWS is Amazon Web Services, a cloud computing platform that provides infrastructure and services to businesses of all sizes. It is a popular choice for building and running applications.</br> 
+<a href=""https://aws.amazon.com/"">Website</a></br>",FALSE
+Confluent Apache Kafka,Adopt,Platforms,"Confluent Apache Kafka is an open-source distributed streaming platform. It is a popular choice for building real-time applications.</br> 
+<a href=""https://developer.confluent.io/"">Website</a></br>",TRUE
+Docker,Adopt,Platforms,"Docker is a platform for building, shipping, and running applications. It is a popular choice for building and running containers.</br> 
+<a href=""https://www.docker.com/"">Website</a></br>",FALSE
+Datadog,Adopt,Platforms,"Datadog a cloud-based monitoring and analytics platform for applications and infrastructure. It is a popular choice for monitoring and analyzing applications and infrastructure.</br> 
+<a href=""https://www.datadoghq.com/"">Website</a></br>",FALSE
+GitHub,Adopt,Platforms,"GitHub is a web-based hosting service for version control using Git. It is a popular choice for managing source code.</br> 
+<a href=""https://github.com/"">Website</a></br>",FALSE
+ConfigCat,Adopt,Platforms,"ConfigCat a configuration management tool that allows you to manage configurations and feature flags for your applications.</br> 
+<a href=""https://configcat.com/"">Website</a></br>",TRUE
+JVM,Adopt,Platforms,"JVM Java Virtual Machine, an abstract machine that enables Java programs to run on any platform that has a Java Virtual Machine implementation. It is a popular choice for running Java applications.</br> 
+<a href=""https://en.wikipedia.org/wiki/Java_virtual_machine"">Website</a></br>",FALSE
+NodeJS,Adopt,Platforms,"NodeJS an open-source, cross-platform runtime environment for JavaScript that executes code outside of a web browser. It is a popular choice for building serverless applications.</br> 
+<a href=""https://nodejs.org/"">Website</a></br>",FALSE
+AWS Lambda,Adopt,Platforms,"AWS Lambda a serverless compute service that lets you run code without provisioning or managing servers. It is a popular choice for building serverless applications.</br> 
+<a href=""https://aws.amazon.com/es/lambda/"">Website</a></br>",TRUE
+AWS ECS,Adopt,Platforms,"AWS ECS Elastic Container Service, a fully managed container orchestration service. It is a popular choice for managing containers.</br> 
+<a href=""https://aws.amazon.com/es/ecs/"">Website</a></br>",FALSE
+AWS Amplify,Adopt,Platforms,"AWS Amplify a set of tools and services that helps you build, deploy, and scale web and mobile applications on AWS. It is a popular choice for building web and mobile applications.</br> 
+<a href=""https://aws.amazon.com/es/amplify/"">Website</a></br>",TRUE
+AWS Glue,Adopt,Platforms,"AWS Glue is a fully managed, serverless, extract, transform, and load (ETL) service that makes it easy to set up and manage data pipelines.</br> 
+<a href=""https://aws.amazon.com/es/glue/"">Website</a></br>",TRUE
+AWS Step Functions,Adopt,Platforms,"Step Functions is a serverless, event-driven workflow service that helps you build and run workflows that coordinate multiple AWS services.</br> 
+<a href=""https://aws.amazon.com/es/step-functions/"">Website</a></br>",TRUE
+Figma,Adopt,Platforms,"Figma a collaborative interface design tool. It is a popular choice for designing user interfaces.</br> 
+<a href=""https://www.figma.com/"">Website</a></br>",FALSE
+didomi,Adopt,Platforms,"didomi a customer data platform that helps you collect, store, and manage customer data. It is a popular choice for collecting and managing customer data.</br> 
+<a href=""https://www.didomi.io/"">Website</a></br>",FALSE
+GraalVM,Assess,Platforms,"GraalVM is a high-performance, polyglot runtime for fast and easy development of cloud and desktop applications.</br> 
+<a href=""https://www.graalvm.org/"">Website</a></br>",TRUE
+Ekon,Hold,Platforms,"Ekon a continuous integration and continuous delivery (CI/CD) platform.</br> 
+<a href=""https://www.ekon.es/"">Website</a></br>",FALSE
+EC2,Hold,Platforms,"EC2 Elastic Compute Cloud, a web service that provides resizable compute capacity in the cloud.</br> 
+<a href=""https://aws.amazon.com/es/ec2/"">Website</a></br>",TRUE
+Netlify,Hold,Platforms,"Netlify a web development platform that automates the build, deployment, and hosting of web sites and applications.</br> 
+<a href=""https://www.netlify.com/"">Website</a></br>",TRUE
+Airflow,Hold,Platforms,"Apache Airflow is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows..</br> 
+<a href=""hhttps://airflow.apache.org/"">Website</a></br>",TRUE
+Rollbar,Hold,Platforms,"Rollbar is a real-time error logging and monitoring service.</br> 
+<a href=""https://rollbar.com/"">Website</a></br>",TRUE
+Continuous Deployment,Adopt,Techniques,"Continuous Deployment a software engineering approach that automates the process of deploying software to production.</br> 
+<a href=""https://en.wikipedia.org/wiki/Continuous_deployment"">Website</a></br>",TRUE
+Pair/Mob programing,Adopt,Techniques,"Pair/Mob programming a software development methodology where two or more developers work together to solve a problem.</br> 
+<a href=""https://en.wikipedia.org/wiki/Pair_programming"">Website</a></br>",FALSE
+Test Driven Development,Adopt,Techniques,"Test Driven Development a software development methodology where developers write tests first and then write code to make the tests pass.</br> 
+<a href=""https://en.wikipedia.org/wiki/Test-driven_development"">Website</a></br>",TRUE
+Feature flags,Adopt,Techniques,"Feature flags a way to enable or disable features of an application at runtime.</br> 
+<a href=""https://en.wikipedia.org/wiki/Feature_toggle"">Website</a></br>",TRUE
+Hexagonal Architecture,Adopt,Techniques,"The hexagonal architecture, or ports and adapters architecture, is an architectural pattern used in software design. It aims at creating loosely coupled application components that can be easily connected to their software environment by means of ports and adapters. This makes components exchangeable at any level and facilitates test automation.</br> 
+<a href=""https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)"">Website</a></br>",FALSE
+DevOps,Adopt,Techniques,"DevOps a software development methodology that combines software development (Dev) and IT operations (Ops).</br> 
+<a href=""https://en.wikipedia.org/wiki/DevOps"">Website</a></br>",FALSE
+You build it you run it,Adopt,Techniques,"You build it you run it a DevOps principle that states that the developers who build an application should also be responsible for running it in production.</br> 
+<a href=""https://www.equalexperts.com/blog/our-thinking/what-is-you-build-it-you-run-it/"">Website</a></br>",FALSE
+Everything as Code,Adopt,Techniques,"Everything as Code a DevOps principle that states that all aspects of an application should be managed using code.</br> 
+<a href=""https://geekflare.com/everything-as-code/"">Website</a></br>",FALSE
+ADRs,Adopt,Techniques,"ADRs Architectural Decision Records, a document that describes the architectural decisions made for an application or organization.</br> 
+<a href=""https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html"">Website</a></br>",FALSE
+Async Comunication,Adopt,Techniques,"Async Comunication a communication pattern where messages are sent and received asynchronously.</br> 
+<a href=""https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)"">Website</a></br>",FALSE
+Platform as product,Adopt,Techniques,"Platform as product a software development methodology where a platform is treated as a product that needs to be developed and maintained.</br> 
+<a href=""https://teamtopologies.com/videos-slides/what-is-platform-as-a-product-clues-from-team-topologies"">Website</a></br>",FALSE
+Services Template,Adopt,Techniques,"Services Template provides a baseline for creating new services solving common problems an implementations that are required to start a project.</br> 
+<a href=""https://microservices.io/patterns/service-template.html"">Website</a></br>",FALSE
+Blameless incident management,Adopt,Techniques,"Blameless incident management a process for managing incidents that focuses on learning from mistakes and improving the system.</br> 
+<a href=""https://www.atlassian.com/incident-management/postmortem/blameless"">Website</a></br>",FALSE
+Semantic Release,Adopt,Techniques,"Semantic Release is a software engineering technique for automating the release of software.</br> 
+<a href=""https://github.com/semantic-release/semantic-release"">Website</a></br>",TRUE
+BFF pattern,Adopt,Techniques,"BFF pattern is a software architecture pattern that defines a service that provides a unified interface to multiple backend services per frontend.</br> 
+<a href=""https://blog.bitsrc.io/bff-pattern-backend-for-frontend-an-introduction-e4fa965128bf"">Website</a></br>",FALSE
+Design Systems,Adopt,Techniques,"Design Systems is a set of principles, processes, and tools for creating a unified user experience across a product or organization.</br> 
+<a href=""https://en.wikipedia.org/wiki/Design_system"">Website</a></br>",FALSE
+Domain Driven Design,Trial,Techniques,"Domain Driven Design is a software design approach that focuses on modeling the domain of a problem in order to build software that is easy to understand and maintain.</br> 
+<a href=""https://en.wikipedia.org/wiki/Domain-driven_design"">Website</a></br>",TRUE
+Ubiquitous Language,Trial,Techniques,"Ubiquitous Language is a shared vocabulary that is used by all members of a team to communicate about software development.</br> 
+<a href=""https://www.martinfowler.com/bliki/UbiquitousLanguage.html"">Website</a></br>",TRUE
+Trunk based development,Trial,Techniques,"Trunk based development is a software development methodology that uses a single branch for development and production.</br> 
+<a href=""https://trunkbaseddevelopment.com/"">Website</a></br>",TRUE
+Single Environment,Trial,Techniques,"Single Environment is a software development environment that is used for both development and production.</br> 
+<a href=""https://www.infoq.com/presentations/skyscanner-production-environments/"">Website</a></br>",TRUE
+four key metrics,Trial,Techniques,"These metrics are important because they can help you track the effectiveness of your DevOps practices. If you are able to improve these metrics, you will be able to deploy changes more quickly, with fewer failures, and recover from failures more quickly.</br> 
+<a href=""https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance"">Website</a></br>",TRUE
+Deploy previews,Trial,Techniques,"Deploy previews is the process of deploying a change to a staging environment before deploying it to production.</br> 
+<a href=""https://docs.aws.amazon.com/amplify/latest/userguide/pr-previews.html"">Website</a></br>",TRUE
+Vertical slicing,Assess,Techniques,"Vertical slicing is a software development methodology that divides a feature into smaller, independent pieces.</br> 
+<a href=""https://monday.com/blog/project-management/vertical-slice/"">Website</a></br>",TRUE
+DevSecOps,Assess,Techniques,"DevSecOps is a software development methodology that integrates security, development, and operations.</br> 
+<a href=""https://aws.amazon.com/es/what-is/devsecops/"">Website</a></br>",TRUE
+Microfrontends,Assess,Techniques,"Microfrontends is a software development methodology that divides a user interface into smaller, independent pieces.</br> 
+<a href=""https://microfrontend.dev/"">Website</a></br>",TRUE
+Monorepos,Assess,Techniques,"Monorepos is a software development methodology that uses a single repository for all of the code for a project.</br> 
+<a href=""https://en.wikipedia.org/wiki/Monorepo"">Website</a></br>",TRUE
+Gitflow,Hold,Techniques,"Gitflow is a software development workflow that uses a master branch for stable code and feature branches for development.</br> 
+<a href=""https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow"">Website</a></br>",TRUE
+Pull Request,Hold,Techniques,"Pull Request is a request to merge changes from one branch into another branch.</br> 
+<a href=""https://en.wikipedia.org/wiki/Distributed_version_control#Pull_requests"">Website</a></br>",TRUE
+Contract Testing,Hold,Techniques,"Contract Testing is a type of testing that focuses on testing the contracts between components in a system.</br> 
+<a href=""https://pactflow.io/blog/what-is-contract-testing/"">Website</a></br>",TRUE
+OpenAPI,Adopt,Tools,"OpenAPI is a standard for defining RESTful APIs.</br> 
+<a href=""https://www.openapis.org/"">Website</a></br>",FALSE
+AWS Secret Manager,Adopt,Tools,"AWS Secret Manager is a service that allows you to store and manage secrets securely.</br> 
+<a href=""https://aws.amazon.com/es/secrets-manager/"">Website</a></br>",TRUE
+GitHub Actions,Adopt,Tools,"GitHub Actions is a service that allows you to automate workflows on GitHub.</br> 
+<a href=""https://docs.github.com/en/actions"">Website</a></br>",TRUE
+Margarita,Adopt,Tools,"Margarita is the UI Library from Holaluz.</br> 
+<a href=""https://github.com/holaluz/margarita"">Website</a></br>",FALSE
+AWS Elastic Cache,Adopt,Tools,"Elastic Cache is a service that provides a distributed in-memory cache.</br> 
+<a href=""https://aws.amazon.com/es/elasticache/"">Website</a></br>",TRUE
+AWS RDS PostgreSQL,Adopt,Tools,"RDS PostgreSQL is a managed database service that offers PostgreSQL as its database engine.</br> 
+<a href=""https://aws.amazon.com/es/rds/"">Website</a></br>",FALSE
+Vitest,Adopt,Tools,"Vitest is a unit testing framework for JavaScript.</br> 
+<a href=""https://vitest.dev/"">Website</a></br>",TRUE
+AWS DynamoDB,Adopt,Tools,"DynamoDB is a fully managed NoSQL database service.</br> 
+<a href=""https://aws.amazon.com/es/dynamodb/"">Website</a></br>",TRUE
+Atlantis,Adopt,Tools,"Atlantis is a tool that helps you automate the process of deploying and managing infrastructure on AWS.</br> 
+<a href=""https://www.runatlantis.io/"">Website</a></br>",TRUE
+Vite,Adopt,Tools,"Vite is a build tool for JavaScript applications.</br> 
+<a href=""https://vitejs.dev/"">Website</a></br>",TRUE
+Terraform,Adopt,Tools,"Terraform is a tool for managing infrastructure on AWS and other providers.</br> 
+<a href=""https://www.terraform.io/"">Website</a></br>",FALSE
+TestContainers,Adopt,Tools,"TestContainers is a tool that allows you to run unit tests in containers.</br> 
+<a href=""https://www.testcontainers.org/"">Website</a></br>",TRUE
+cookiecutter,Adopt,Tools,"cookiecutter is a tool that helps you create new projects from templates.</br> 
+<a href=""https://www.cookiecutter.io/"">Website</a></br>",FALSE
+Testing Library,Adopt,Tools,"Testing Library is a testing framework for JavaScript.</br> 
+<a href=""https://testing-library.com/"">Website</a></br>",FALSE
+AWS S3,Adopt,Tools,"AWS S3 is a web service that provides object storage.</br> 
+<a href=""https://aws.amazon.com/es/s3/"">Website</a></br>",FALSE
+Cypress,Adopt,Tools,"Cypress is a tool that helps you test web applications.</br> 
+<a href=""https://www.cypress.io/"">Website</a></br>",FALSE
+VeeValidate,Adopt,Tools,"VeeValidate is a tool that helps you validate data.</br> 
+<a href=""https://vee-validate.logaretm.com/v4/"">Website</a></br>",TRUE
+Mock Service Worker,Adopt,Tools,"Mock Service Worker is a tool that allows you to mock out the Service Worker API.</br> 
+<a href=""https://mswjs.io/"">Website</a></br>",TRUE
+AWS Api Gateway,Adopt,Tools,"Amazon API Gateway enables you to create and deploy your own REST and WebSocket APIs at any scale. You can create robust, secure, and scalable APIs that access Amazon Web Services or other web services, as well as data that's stored in the AWS Cloud.</br> 
+<a href=""https://aws.amazon.com/es/api-gateway/"">Website</a></br>",TRUE
+Dependabot,Trial,Tools,"Dependabot is a tool that helps you manage dependencies for your projects.</br> 
+<a href=""https://github.com/dependabot"">Website</a></br>",TRUE
+Mergstat,Trial,Tools,"Mergstat Answer critical questions about your codebase with SQL.</br> 
+<a href=""https://www.mergestat.com/"">Website</a></br>",TRUE
+Open Policy Agent,Trial,Tools,"Open Policy Agent is a tool that helps you enforce policies on your infrastructure.</br> 
+<a href=""https://www.openpolicyagent.org/"">Website</a></br>",TRUE
+Schema Registry,Trial,Tools,"Schema Registry is a tool that helps you manage the schema for your data.</br> 
+<a href=""https://github.com/confluentinc/schema-registry"">Website</a></br>",TRUE
+Snyk,Assess,Tools,"Snyk is a tool that helps you find vulnerabilities in your code.</br> 
+<a href=""https://snyk.io/"">Website</a></br>",TRUE
+ChatGPT,Assess,Tools,"ChatGPT is an AI-powered language model developed by OpenAI. It has been trained on a massive amount of text data from the internet and can generate human-like text responses to a given prompt. It can answer questions, converse on a variety of topics, and generate creative writing pieces..</br> 
+<a href=""https://openai.com/blog/chatgpt"">Website</a></br>",TRUE
+Husky,Assess,Tools,"Husky is a tool that helps you automate tasks related to your code.</br> 
+<a href=""https://github.com/typicode/husky"">Website</a></br>",TRUE
+simple-git-hooks,Assess,Tools,"simple-git-hooks is a tool that helps you automate tasks related to your Git repository.</br> 
+<a href=""https://github.com/toplenboren/simple-git-hooks"">Website</a></br>",TRUE
+AWS OpenSearch,Assess,Tools,"OpenSearch is a fully managed service that provides a search engine based on Elasticsearch.</br> 
+<a href=""https://aws.amazon.com/es/what-is/opensearch/"">Website</a></br>",TRUE
+AWS Cognito,Assess,Tools,"AWS Cognito is a service that provides user authentication and authorization.</br> 
+<a href=""https://aws.amazon.com/es/cognito/"">Website</a></br>",TRUE
+Lighthouse,Assess,Tools,"Lighthouse is an open-source tool that helps you audit your web pages for performance, accessibility, and SEO.</br> 
+<a href=""https://developer.chrome.com/docs/lighthouse/overview/"">Website</a></br>",TRUE
+Terragrunt,Assess,Tools,"Terragrunt is a tool that helps you manage Terraform configurations.</br> 
+<a href=""https://terragrunt.gruntwork.io/"">Website</a></br>",TRUE
+Playwright,Assess,Tools,"Playwright is a tool that helps you automate the testing of web applications.</br> 
+<a href=""https://playwright.dev/"">Website</a></br>",TRUE
+infracost,Assess,Tools,"infracost is a tool that helps you estimate the cost of your infrastructure.</br> 
+<a href=""https://www.infracost.io/"">Website</a></br>",TRUE
+AsyncAPI,Assess,Tools,"AsyncAPI is a standard for defining RESTful APIs asynchronously.</br> 
+<a href=""https://www.asyncapi.com/"">Website</a></br>",TRUE
+terratest,Assess,Tools,"terratest is a tool that helps you test your Terraform configurations.</br> 
+<a href=""https://terratest.gruntwork.io/"">Website</a></br>",TRUE
+vuelidate,Hold,Tools,"vuelidate is a tool that helps you validate data.</br> 
+<a href=""https://vuelidate.js.org/"">Website</a></br>",TRUE
+Jenkins,Hold,Tools,"Jenkins is an open-source continuous integration and continuous delivery (CI/CD) server.</br> 
+<a href=""https://www.jenkins.io/"">Website</a></br>",TRUE
+webpack,Hold,Tools,"webpack is a tool that helps you bundle JavaScript files.</br> 
+<a href=""https://webpack.js.org/"">Website</a></br>",TRUE
+Jest,Hold,Tools,"Jest is a tool that helps you write unit tests for JavaScript.</br> 
+<a href=""https://jestjs.io/"">Website</a></br>",TRUE
+Elastic Search,Hold,Tools,"Elastic Search is an open-source distributed search and analytics engine.</br> 
+<a href=""https://aws.amazon.com/es/what-is/elasticsearch/"">Website</a></br>",TRUE
