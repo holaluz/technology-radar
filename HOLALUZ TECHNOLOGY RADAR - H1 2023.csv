@@ -1,0 +1,105 @@
+name,ring,quadrant,description,isNew	
+Typescript,Adopt,Languages & Frameworks,,TRUE
+Kotlin,Adopt,Languages & Frameworks,,TRUE
+Python,Adopt,Languages & Frameworks,,TRUE
+Nuxt,Adopt,Languages & Frameworks,,TRUE
+Vue,Adopt,Languages & Frameworks,,TRUE
+PostCSS,Adopt,Languages & Frameworks,,TRUE
+Apache Avro,Trial,Languages & Frameworks,,TRUE
+GraphQL,Assess,Languages & Frameworks,,TRUE
+Ktor,Assess,Languages & Frameworks,,TRUE
+Micronauts,Assess,Languages & Frameworks,,TRUE
+NestJs,Assess,Languages & Frameworks,,TRUE
+Java,Hold,Languages & Frameworks,,TRUE
+PHP,Hold,Languages & Frameworks,,TRUE
+Confluent Apache Kafka,Adopt,Platforms,"Apache Kafka is a distributed event store and stream-processing platform. It is an open-source system developed by the Apache Software Foundation written in Java and Scala. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds. Kafka can connect to external systems (for data import/export) via Kafka Connect, and provides the Kafka Streams libraries for stream processing applications. Kafka uses a binary TCP-based protocol that is optimized for efficiency and relies on a ""message set"" abstraction that naturally groups messages together to reduce the overhead of the network roundtrip.</br> 
+<a href=""https://kafka.apache.org/"">Apache Website</a></br>
+<a href=""https://developer.confluent.io/"">Confluent Website</a></br>",TRUE
+AWS,Adopt,Platforms,,TRUE
+JVM,Adopt,Platforms,,TRUE
+NodeJS,Adopt,Platforms,,TRUE
+GitHub,Adopt,Platforms,,TRUE
+Docker,Adopt,Platforms,,TRUE
+ConfigCat,Adopt,Platforms,,TRUE
+Figma,Adopt,Platforms,,TRUE
+Datadog,Adopt,Platforms,,TRUE
+AWS Lambda,Adopt,Platforms,,TRUE
+AWS ECS,Adopt,Platforms,,TRUE
+AWS Amplify,Adopt,Platforms,,TRUE
+didomi,Adopt,Platforms,,TRUE
+AWS Glue,Adopt,Platforms,,TRUE
+Step Functions,Adopt,Platforms,,TRUE
+GraalVM,Assess,Platforms,,TRUE
+Rollbar,Hold,Platforms,,TRUE
+EC2,Hold,Platforms,,TRUE
+Ekon,Hold,Platforms,,TRUE
+Netlify,Hold,Platforms,,TRUE
+Airflow,Hold,Platforms,,TRUE
+Continuous Deployment,Adopt,Techniques,,TRUE
+Pair/Mob programing,Adopt,Techniques,,TRUE
+Test Driven Development,Adopt,Techniques,,TRUE
+Feature flags,Adopt,Techniques,,TRUE
+Hexagonal Architecture,Adopt,Techniques,,TRUE
+DevOps,Adopt,Techniques,,TRUE
+You build it you run it,Adopt,Techniques,,TRUE
+Everything as Code,Adopt,Techniques,,TRUE
+ADRs,Adopt,Techniques,,TRUE
+Async Comunication,Adopt,Techniques,,TRUE
+Platform as product,Adopt,Techniques,,TRUE
+Services Template,Adopt,Techniques,,TRUE
+Blameless incident management,Adopt,Techniques,,TRUE
+Semantic Release,Adopt,Techniques,,TRUE
+BFF pattern,Adopt,Techniques,,TRUE
+Design Systems,Adopt,Techniques,,TRUE
+Domain Driven Design,Trial,Techniques,,TRUE
+Ubiquitous Language,Trial,Techniques,,TRUE
+Trunk based development,Trial,Techniques,,TRUE
+Single Environment,Trial,Techniques,,TRUE
+four key metrics,Trial,Techniques,,TRUE
+Deploy previews,Trial,Techniques,,TRUE
+Vertical slicing,Assess,Techniques,,TRUE
+DevSecOps,Assess,Techniques,,TRUE
+Microfrontends,Assess,Techniques,,TRUE
+Monorepos,Assess,Techniques,,TRUE
+Gitflow,Hold,Techniques,,TRUE
+Pull Request,Hold,Techniques,,TRUE
+OpenAPI,Adopt,Tools,,TRUE
+AWS Secret Manager,Adopt,Tools,,TRUE
+GitHub Actions,Adopt,Tools,,TRUE
+Margarita,Adopt,Tools,,TRUE
+Elastic Cache,Adopt,Tools,,TRUE
+Vitest,Adopt,Tools,,TRUE
+AWS RDS PostgreSQL,Adopt,Tools,,TRUE
+DynamoDB,Adopt,Tools,,TRUE
+Atlantis,Adopt,Tools,,TRUE
+Vite,Adopt,Tools,,TRUE
+Terraform,Adopt,Tools,,TRUE
+TestContainers,Adopt,Tools,,TRUE
+cookiecutter,Adopt,Tools,,TRUE
+Testing Library,Adopt,Tools,,TRUE
+AWS S3,Adopt,Tools,,TRUE
+Cypress,Adopt,Tools,,TRUE
+VeeValidate,Adopt,Tools,,TRUE
+Mock Service Worker,Adopt,Tools,,TRUE
+Dependabot,Trial,Tools,,TRUE
+Mergstat,Trial,Tools,,TRUE
+Open Policy Agent,Trial,Tools,,TRUE
+Schema Registry,Trial,Tools,,TRUE
+Snyk,Hold,Tools,,TRUE
+ChatGPT,Hold,Tools,,TRUE
+Husky,Hold,Tools,,TRUE
+simple-git-hooks,Hold,Tools,,TRUE
+OpenSearch,Hold,Tools,,TRUE
+AWS Cognito,Hold,Tools,,TRUE
+Lighthouse,Hold,Tools,,TRUE
+Terragrunt,Hold,Tools,,TRUE
+Playwright,Hold,Tools,,TRUE
+infracost,Hold,Tools,,TRUE
+AsyncAPI,Hold,Tools,,TRUE
+terratest,Hold,Tools,,TRUE
+vuelidate,Hold,Tools,,TRUE
+Jenkins,Hold,Tools,,TRUE
+webpack,Hold,Tools,,TRUE
+Jest,Hold,Tools,,TRUE
+Contract Testing,Hold,Tools,,TRUE
+Elastic Search,Hold,Tools,,TRUE
